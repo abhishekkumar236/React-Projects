@@ -1,14 +1,20 @@
 import React from "react";
-import Features from "~/components/Features";
+import Footer from "~/components/Footer";
 import Hero from "~/components/Hero";
 import Navbar from "~/components/Navbar";
+import Section01 from "~/components/Section01";
+import Section02 from "~/components/Section02";
+import Section03 from "~/components/Section03";
 
 function Home() {
     return (
         <>
             <Navbar />
             <Hero />
-            <Features />
+            <Section01 />
+            <Section02 />
+            <Section03 />
+            <Footer />
         </>
     );
 }

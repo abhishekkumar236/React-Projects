@@ -12,7 +12,7 @@ function Navbar() {
     );
 }
 
-function Logo() {
+export function Logo() {
     return (
         <div className="flex items-center gap-1.5">
             <svg

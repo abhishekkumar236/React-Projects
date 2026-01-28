@@ -1,5 +1,5 @@
 import Container from "./Container";
-import Preview from "../../public/Preview.png";
+
 function Hero() {
     return (
         <div className="bg-primary py-20 flex">
@@ -56,7 +56,7 @@ function CTAButtons() {
 function HeroImage() {
     return (
         <>
-            <img src={Preview} alt="" className="pt-16" />
+            <img src="/Preview.png" alt="" className="pt-16" />
         </>
     );
 }

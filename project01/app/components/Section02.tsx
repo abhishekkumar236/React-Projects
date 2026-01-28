@@ -1,7 +1,5 @@
 import Container from "./Container";
 import { FaRegCheckCircle } from "react-icons/fa";
-import FeatureImage02 from "../../public/Feature_image02.png";
-import FeatureImage01 from "../../public/Feature_image01.png";
 
 interface TextCardProps {
     tag: string;
@@ -35,7 +33,7 @@ const featureRows: FeatureRowProps[] = [
             ],
         },
         imageCard: {
-            image: FeatureImage02,
+            image: "/Feature_image02.png",
             alt: "Automation feature",
         },
         reverse: false,
@@ -53,7 +51,7 @@ const featureRows: FeatureRowProps[] = [
             ],
         },
         imageCard: {
-            image: FeatureImage01,
+            image: "/Feature_image01.png",
             alt: "Analytics feature",
         },
         reverse: true,
